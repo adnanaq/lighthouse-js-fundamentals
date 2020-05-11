@@ -1,4 +1,6 @@
 // If statement
+
+// Exercise #1 -- IF conditon
 const raining = false;
 const cold = true;
 
@@ -11,7 +13,7 @@ if (cold) {
 
 console.log("Now you're ready to go outside!");
 
-
+// Exercise #2 -- IF -Else condition
 const temperature = 15;
 
 if (temperature < 0) {
@@ -25,6 +27,7 @@ if (temperature < 0) {
 console.log("Now you're ready to go outside!");
 
 // Logical Operators
+// Exercise #3 -- AND (&&) Operator
 const isCitizen = false;
 const age = 26;
 
@@ -32,11 +35,12 @@ if (isCitizen && age > 18) {
   console.log("You are eligible to vote.");
 }
 
-
+// Exercise #4 -- OR (||) Operator
 if (temperature < -40 || temperature > 40) {
   console.log("Maybe going outside isn't such a great idea…");
 }
 
+// Exercise #5  -- NOT (!) Operator
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
