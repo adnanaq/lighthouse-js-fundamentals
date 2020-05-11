@@ -1,3 +1,5 @@
+// Loops
+// WHILE loop
 const chorus = 'let\'s dance!';
 let repeat = 0;
 
