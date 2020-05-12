@@ -1,3 +1,6 @@
+//Functions
+
+// Anonymous Function Expression
 const sayHello = function (name) {
   console.log('Hello, ' + name);
 }
